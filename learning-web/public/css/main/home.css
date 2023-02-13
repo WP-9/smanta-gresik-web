@@ -1,0 +1,69 @@
+@import "../global.css";
+
+body {
+    background: linear-gradient(0deg, var(--dark) 50%, var(--secondary) 90%) no-repeat;
+    height: max-content;
+}
+
+.card-img-top {
+    max-height: 400px;
+    margin: auto;
+}
+
+.card {
+    max-width: 300px;
+    background-color: var(--primary);
+    width: fit-content;
+}
+
+.quotes-wrap {
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: var(--secondary);
+    color: var(--semi);
+}
+
+.dropdown-item, .dropdown-menu {
+    background-color: var(--secondary);
+    color: var(--light);
+}
+
+.active-custom {
+    background-color: var(--secondary);
+    color: var(--semi);
+}
+
+.card-title {
+    border-bottom: 1px solid var(--secondary);
+}
+
+.card-text {
+    max-height: 80px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.content-text {
+    background-color: var(--primary);
+}
+
+@media screen and (max-width: 355px) {
+    .content-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quotes-wrap {
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+}
